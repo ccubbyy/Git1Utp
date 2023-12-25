@@ -1,0 +1,6 @@
+#python
+l = int(input("ВВдеите длину списка "))
+a = []
+for i in range(l):
+	a[i] = int(input("Введите элемент списка "))
+print(max(a))
